@@ -1,3 +1,4 @@
+'''https://link.springer.com/chapter/10.1007/11506157_5'''
 def pgcd(f, g, n):
     gp = Gp(stacksize=1024*1024*512)
     gp.set('g','gcd(Mod({},{}),Mod({},{}))'.format(pols[0],n,pols[1],n))
